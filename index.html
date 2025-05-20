@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT. TRIGANA HUSAIN JAYA</title>
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        line-height: 1.6;
+      }
+      header {
+        background: #ffffff;
+        color: #1565c0;
+        padding: 20px;
+      }
+      .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: left;
+      }
+      .header-content img {
+        max-width: 100px;
+      }
+      .header-content div {
+        display: flex;
+        flex-direction: column;
+      }
+      .header-content h1 {
+        margin-bottom: 5px;
+      }
+      nav {
+        background: #1565c0;
+        text-align: center;
+        padding: 10px 0;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      section {
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      section:nth-child(even) {
+        background: #f1f1f1;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .gallery img {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      footer {
+        background: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img src="logo.png" alt="Logo Perusahaan" />
+        <div>
+          <h1>PT. Trigana Husain Jaya</h1>
+          <p>Always Do Better</p>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#about">Tentang Kami</a>
+      <a href="#services">Layanan</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <section id="about">
+      <h2>Tentang Kami</h2>
+      <p>
+        PT. Trigana Husain Jaya adalah perusahaan yang bergerak di bidang jasa layanan valet parkir profesional. Berdiri sejak tahun 2019, perusahaan ini telah membuktikan komitmennya dalam memberikan layanan parkir yang aman, cepat, dan
+        terpercaya untuk berbagai jenis acara maupun kebutuhan bisnis anda.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Layanan Kami</h2>
+      <ul>
+        <li>Layanan Valet untuk Acara Pernikahan & Event Khusus</li>
+        <li>Valet Parkir untuk Hotel, Mal, dan Restoran</li>
+        <li>Manajemen Area Parkir Komersial</li>
+        <li>Pelatihan Petugas Valet Profesional</li>
+      </ul>
+    </section>
+
+    <section id="gallery">
+      <h2>Galeri</h2>
+      <div class="gallery">
+        <img src="valet1.jpg" alt="Valet Parkir di Hotel" />
+        <img src="valet2.jpg" alt="Tim Valet Profesional" />
+        <img src="valet3.jpg" alt="Event dengan Layanan Valet" />
+        <img src="valet2.jpg" alt="Area Parkir yang Dikelola" />
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontak</h2>
+      <p>Email: husainjayatrigana@gmail.com</p>
+      <p>Telepon: (021) 98765432</p>
+      <p>Alamat: Jl. Darussalam Utara II No 154, Batuceper, Tangerang.</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 PT. Trigana Husain Jaya. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
